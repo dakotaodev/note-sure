@@ -1,0 +1,14 @@
+[project]
+name = "note-sure"
+version = "0.1.0"
+description = "Chat with your vault"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.7",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-text-splitters>=1.1.0",
+    "langgraph>=1.0.7",
+]
